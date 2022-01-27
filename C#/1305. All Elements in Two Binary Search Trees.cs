@@ -47,8 +47,8 @@ public class Solution {
     {
         if (node is null) return;
         
-        //Traverse tree
-        DFS(stk, node.right);
+        //Traverse tree for greatest values first, which should go at the bottom of the stack
+        DFS(stk, node.right);  
         stk.Push(node.val);
         DFS(stk, node.left);
     }
