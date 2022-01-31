@@ -7,6 +7,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 > Source: [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
 
 ## Problem Solutions
+3: [Longest Substring Without Repeating Characters](https://github.com/EthanC2/leetcode/blob/main/C%23/0003.%20Longest%20Substring%20Without%20Repeating%20Characters.cs) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 520: [Detect Capital](https://github.com/EthanC2/leetcode/blob/main/C%23/0520.%20Detect%20Capital.cs) <br />
 704: [Binary Search](https://github.com/EthanC2/leetcode/blob/main/C%23/0704.%20Binary%20Search.cs) <br /> 
