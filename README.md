@@ -9,7 +9,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 ## Problem Solutions
 1: [Two Sum](https://github.com/EthanC2/leetcode/blob/main/C%23/0001.%20Two%20Sum.cs) <br />
 3: [Longest Substring Without Repeating Characters](https://github.com/EthanC2/leetcode/blob/main/C%23/0003.%20Longest%20Substring%20Without%20Repeating%20Characters.cs) <br />
-121: [Best Time to Buy and Sell Stock](https://github.com/EthanC2/leetcode/blob/main/C%23/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs)
+121: [Best Time to Buy and Sell Stock](https://github.com/EthanC2/leetcode/blob/main/C%23/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 520: [Detect Capital](https://github.com/EthanC2/leetcode/blob/main/C%23/0520.%20Detect%20Capital.cs) <br />
 704: [Binary Search](https://github.com/EthanC2/leetcode/blob/main/C%23/0704.%20Binary%20Search.cs) <br /> 
