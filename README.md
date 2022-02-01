@@ -7,7 +7,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 > Source: [Big-O Cheatsheet](https://www.bigocheatsheet.com/)
 
 ## Problem Solutions
-1: [Two Sum](https://github.com/EthanC2/leetcode/blob/main/C%23/0001.%20Two%20Sum.cs)
+1: [Two Sum](https://github.com/EthanC2/leetcode/blob/main/C%23/0001.%20Two%20Sum.cs) <br />
 3: [Longest Substring Without Repeating Characters](https://github.com/EthanC2/leetcode/blob/main/C%23/0003.%20Longest%20Substring%20Without%20Repeating%20Characters.cs) <br />
 121: [Best Time to Buy and Sell Stock](https://github.com/EthanC2/leetcode/blob/main/C%23/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs)
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
