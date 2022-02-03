@@ -20,20 +20,18 @@ public class Solution
         for(int i=0; i < s.Length; ++i)
         {
           //Add letter to window
-          char c = s[i];           //Create alias for clarity
-          if (window.ContainsKey(c))
-            window[c]++;
+          if (window.ContainsKey(s[i]))
+            window[s[i]]++;
           else
-            window.Add(c,1);
+            window.Add(s[i],1);
           
           //Remove one letter from the left side
           if (i >= p.Length)
           {
-            c = s[i - p.Length];
-            if (window[c] == 1)
-              window.Remove(c);
+            if (window[s[i-p.Length]] == 1)
+              window.Remove(s[i-p.Length]);
             else
-              window[c]--;
+              window[s[i-p.Length]]--;
           }
           
           if (AreEqual(window, pmap))
