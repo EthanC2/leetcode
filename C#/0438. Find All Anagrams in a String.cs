@@ -35,7 +35,7 @@ public class Solution
           }
           
           if (AreEqual(window, pmap))
-            indices.Add(i - p.Length+1);
+            indices.Add(i-p.Length + 1);
         }
       
         return indices;
