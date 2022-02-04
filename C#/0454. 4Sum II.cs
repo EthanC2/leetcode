@@ -11,8 +11,7 @@ public class Solution
     {
       int count = 0;
       Dictionary<int,int> hashmap = new();
-      
-      //Create reference hashmap from nums1 and nums2
+    
       foreach(int a in nums1)
       {
         foreach(int b in nums2)
