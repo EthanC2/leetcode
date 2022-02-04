@@ -13,6 +13,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
 438: [Find All Anagrams in a String](https://github.com/EthanC2/leetcode/blob/main/C%23/0438.%20Find%20All%20Anagrams%20in%20a%20String.cs) <br />
+454: [4Sum II](https://github.com/EthanC2/leetcode/blob/main/C%23/0454.%204Sum%20II.cs) <br />
 520: [Detect Capital](https://github.com/EthanC2/leetcode/blob/main/C%23/0520.%20Detect%20Capital.cs) <br />
 704: [Binary Search](https://github.com/EthanC2/leetcode/blob/main/C%23/0704.%20Binary%20Search.cs) <br /> 
 824: [Goat Latin](https://github.com/EthanC2/leetcode/blob/main/C%23/0824.%20Goat%20Latin.cs) <br />
