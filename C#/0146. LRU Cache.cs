@@ -7,6 +7,11 @@
     a way to associate the keys directly with the nodes in the list. From there, you can just
     use a hashmap.
     
+    Unfortunately, this basic approach runs into a problem: you cannot remove a key-value
+    pair from a map in O(1) time if you only have the value. So, you have to store the deque
+    nodes as key-value pairs. As expected, making everything O(1) requires that you increase
+    the space complexity.
+    
     Sorry for how ugly LinkedListNode<ValueTuple<int,int>> is. I originally created a 
     class called "KeyNode" that acted as a thin wrapper, but it was too slow because it
     lacked optimizations that the raw LinkedListNode<T> had. So, I tried to derived from it
