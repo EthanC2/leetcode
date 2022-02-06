@@ -1,22 +1,30 @@
+/*
+    This problem is especially interesting. Essentially, you have to create an LRU
+    cache that can both get and set values in constant time (O(1)), *and* can also 
+    maintain ordering. The intuitive way to solve this is a doubly-linked list since it 
+    fits all those requirements, but you run into a problem because removal from a doubly-linked
+    lists only have a constant removal time IF you already have the reference to them, so you need
+    a way to associate the keys directly with the nodes in the list. From there, you can just
+    use a hashmap.
+    
+    Sorry for how ugly LinkedListNode<ValueTuple<int,int>> is. I originally created a 
+    class called "KeyNode" that acted as a thin wrapper, but it was too slow because it
+    lacked optimizations that the raw LinkedListNode<T> had. So, I tried to derived from it
+    instead to maintain them; unfortunately, the LinkedListNode<T> class is sealed and cannot
+    be derived from.
+*/
 public class LRUCache 
-{
-    //KeyNode
-    public class KeyNode
-    {
-      public int Key {get; set;}
-      public LinkedListNode<int> Node {get; set;}
-      
-      public KeyNode(int key, int value)
-      {
-        Key = key;
-        Node = new LinkedListNode<int>(value);
-      }
-    }
-  
-    //Variables
-    private LinkedList<KeyNode> _deque;
-    private Dictionary<int, KeyNode> _cache;
-    private int _capacity;
+{ 
+    /*
+        Variables.
+        
+        ValueTuple Note:
+        Item1 = key;
+        Item2 = value;
+    */
+    LinkedList<ValueTuple<int,int>> _deque;
+    Dictionary<int, LinkedListNode<ValueTuple<int,int>>> _cache;
+    int _capacity;
   
     public LRUCache(int capacity) 
     {
@@ -34,10 +42,10 @@ public class LRUCache
       if (!_cache.ContainsKey(key))
         return -1;
       
-      var keynode = _cache[key];
-      _deque.Remove(keynode);
-      _deque.AddFirst(keynode);
-      return keynode.Node.Value;
+      var node = _cache[key];
+      _deque.Remove(node);
+      _deque.AddFirst(node);
+      return node.Value.Item2;
     }
     
     public void Put(int key, int value) 
@@ -47,18 +55,18 @@ public class LRUCache
         var keynode = _cache[key];
         _deque.Remove(keynode);
         _deque.AddFirst(keynode);
-        keynode.Node.Value = value;
+        keynode.Value = ValueTuple.Create(keynode.Value.Item1, value);
         return;
       }
       
       if (_deque.Count+1 > _capacity)
       {
-        _cache.Remove(_deque.Last.Value.Key);
+        _cache.Remove(_deque.Last.Value.Item1);
         _deque.RemoveLast();
       }
       
       //Add elems to the ds
-      var newnode = new KeyNode(key,value);
+      var newnode = new LinkedListNode<ValueTuple<int,int>>(ValueTuple.Create(key,value));
       _cache.Add(key, newnode);
       _deque.AddFirst(newnode);
     }
