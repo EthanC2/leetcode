@@ -14,9 +14,9 @@ public class LRUCache
     }
   
     //Variables
-    LinkedList<KeyNode> _deque;
-    Dictionary<int, KeyNode> _cache;
-    int _capacity;
+    private LinkedList<KeyNode> _deque;
+    private Dictionary<int, KeyNode> _cache;
+    private int _capacity;
   
     public LRUCache(int capacity) 
     {
