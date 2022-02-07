@@ -6,6 +6,7 @@
 
   WARNING: DO NOT CALCULATE THE MIDPOINT USING 'mid=(left+right)/2'. IT CAUSES INTEGER OVERFLOW:
   https://thebittheories.com/the-curious-case-of-binary-search-the-famous-bug-that-remained-undetected-for-20-years-973e89fc212?gif=true
+  https://medium.com/swlh/overflow-bug-in-binary-search-c4d4a824807a
 */
 
 public class Solution 
