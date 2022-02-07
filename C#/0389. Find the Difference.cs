@@ -29,7 +29,7 @@ public class Solution
 
 
 /*
-    Optimized approach: hashmap
+    Better approach: hashmap
     TC: O(n) | iterating over the whole string
     SC: O(n) | for storing each char in the string 
 */
@@ -59,5 +59,26 @@ public class Solution
       
       //Should never happen
       return '\0';
+    }
+}
+
+
+/*
+    Optimized Approach: ASCII math
+    TC: O(n)
+    SC: O(1)
+    
+    If there is only a one-character difference between the two strings,
+    then the difference between the sum of the two strings is the integer
+    value of that character. So, calculate the difference and cast it to a char.
+*/
+public class Solution 
+{
+    public char FindTheDifference(string s, string t) 
+    {
+      int ssum = s.Sum(c => (int) c);
+      int tsum = t.Sum(c => (int) c);
+        
+      return (char) (tsum - ssum);
     }
 }
