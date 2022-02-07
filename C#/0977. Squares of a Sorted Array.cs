@@ -1,3 +1,9 @@
+/*
+    Naive approach: overwrite values with their squares and then sort.
+
+    TC: O(n log n)
+    SC: O(1)
+*/
 public class Solution 
 {
     public int[] SortedSquares(int[] nums) 
