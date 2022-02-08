@@ -6,9 +6,7 @@ public class Solution
     public IList<int> InorderTraversal(TreeNode root) 
     {
       List<int> values = new();
-      
       InOrder(values, root);
-      
       return values;
     }
   
