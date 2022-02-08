@@ -13,6 +13,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 94: [Binary Tree Inorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0094.%20Binary%20Tree%20Inorder%20Traversal.cs) <br />
 121: [Best Time to Buy and Sell Stock](https://github.com/EthanC2/leetcode/blob/main/C%23/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs) <br />
 144: [Binary Tree Preorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0144.%20Binary%20Tree%20Preorder%20Traversal.cs) <br />
+145: [Binary Tree Postorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0145.%20Binary%20Tree%20Postorder%20Traversal.cs) <br />
 146: [LRU Cache](https://github.com/EthanC2/leetcode/blob/main/C%23/0146.%20LRU%20Cache.cs) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
