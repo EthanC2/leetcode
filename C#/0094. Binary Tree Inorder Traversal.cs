@@ -1,4 +1,8 @@
-//What is an in-order traversal of a binary search tree?: https://www.educba.com/inorder-traversal-of-binary-tree/
+/*
+    What is an in-order traversal of a binary search tree?: 
+    https://www.educba.com/inorder-traversal-of-binary-tree/
+    https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+*/
 
 //Recursive approach
 public class Solution 
