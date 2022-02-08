@@ -5,7 +5,7 @@
     
     Preorder Traversal
     ==================
-    list.Add(root.val);
+    list.Add(root.val);  <= action first in preorder
     PreOrder(root.left);
     PreOrder(root.right);
 */
