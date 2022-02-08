@@ -44,7 +44,7 @@ public class Solution
       Stack<TreeNode> nodes = new();
       TreeNode temp = root;
       
-      while (temp is not null || !(nodes.Count == 0))
+      while (temp is not null || nodes.Count != 0)
       {
         if (temp is not null)
         {
