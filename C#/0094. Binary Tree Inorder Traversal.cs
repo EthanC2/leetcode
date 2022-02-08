@@ -2,6 +2,12 @@
     What is an in-order traversal of a binary search tree?: 
     https://www.educba.com/inorder-traversal-of-binary-tree/
     https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+    
+    InOrder Traversal:
+    ==================
+    InOrder(root.left);
+    list.Add(root.val);
+    InOrder(root.right);
 */
 
 //Recursive approach
