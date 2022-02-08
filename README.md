@@ -14,6 +14,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 146: [LRU Cache](https://github.com/EthanC2/leetcode/blob/main/C%23/0146.%20LRU%20Cache.cs) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
+258: [Add Digits](https://github.com/EthanC2/leetcode/blob/main/C%23/0258.%20Add%20Digits.cs) <br />
 278: [First Bad Version](https://github.com/EthanC2/leetcode/blob/main/C%23/0278.%20First%20Bad%20Version.cs) <br />
 389: [Find the Difference](https://github.com/EthanC2/leetcode/blob/main/C%23/0389.%20Find%20the%20Difference.cs) <br />
 438: [Find All Anagrams in a String](https://github.com/EthanC2/leetcode/blob/main/C%23/0438.%20Find%20All%20Anagrams%20in%20a%20String.cs) <br />
