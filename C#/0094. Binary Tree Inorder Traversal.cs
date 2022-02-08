@@ -6,7 +6,7 @@
     InOrder Traversal:
     ==================
     InOrder(root.left);
-    list.Add(root.val);
+    list.Add(root.val);  <= action in middle in inorder
     InOrder(root.right);
 */
 
