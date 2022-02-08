@@ -53,8 +53,7 @@ public class Solution
         }
         else
         {
-          temp = nodes.Peek();
-          nodes.Pop();
+          temp = nodes.Pop();
           values.Add(temp.val);
           temp = temp.right;
         }
