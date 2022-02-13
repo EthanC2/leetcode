@@ -16,6 +16,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 144: [Binary Tree Preorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0144.%20Binary%20Tree%20Preorder%20Traversal.cs) <br />
 145: [Binary Tree Postorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0145.%20Binary%20Tree%20Postorder%20Traversal.cs) <br />
 146: [LRU Cache](https://github.com/EthanC2/leetcode/blob/main/C%23/0146.%20LRU%20Cache.cs) <br />
+175: [Combine Two Tables](https://github.com/EthanC2/leetcode/blob/main/SQL/175.%20Combine%20Two%20Tables.sql) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
 258: [Add Digits](https://github.com/EthanC2/leetcode/blob/main/C%23/0258.%20Add%20Digits.cs) <br />
