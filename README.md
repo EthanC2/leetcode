@@ -10,6 +10,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 1: [Two Sum](https://github.com/EthanC2/leetcode/blob/main/C%23/0001.%20Two%20Sum.cs) <br />
 3: [Longest Substring Without Repeating Characters](https://github.com/EthanC2/leetcode/blob/main/C%23/0003.%20Longest%20Substring%20Without%20Repeating%20Characters.cs) <br />
 35: [Search Insert Position](https://github.com/EthanC2/leetcode/blob/main/C%23/0035.%20Search%20Insert%20Position.cs) <br />
+74: [Subsets](https://github.com/EthanC2/leetcode/blob/main/C%23/0078.%20Subsets.cs) <br />
 94: [Binary Tree Inorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0094.%20Binary%20Tree%20Inorder%20Traversal.cs) <br />
 121: [Best Time to Buy and Sell Stock](https://github.com/EthanC2/leetcode/blob/main/C%23/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs) <br />
 144: [Binary Tree Preorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0144.%20Binary%20Tree%20Preorder%20Traversal.cs) <br />
