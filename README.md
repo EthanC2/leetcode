@@ -12,6 +12,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [qui
 35: [Search Insert Position](https://github.com/EthanC2/leetcode/blob/main/C%23/0035.%20Search%20Insert%20Position.cs) <br />
 74: [Subsets](https://github.com/EthanC2/leetcode/blob/main/C%23/0078.%20Subsets.cs) <br />
 94: [Binary Tree Inorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0094.%20Binary%20Tree%20Inorder%20Traversal.cs) <br />
+104: [Maximum Depth of a Binary Tree](https://github.com/EthanC2/leetcode/blob/main/C%23/0104.%20Maximum%20Depth%20of%20Binary%20Tree.cs) <br />
 121: [Best Time to Buy and Sell Stock](https://github.com/EthanC2/leetcode/blob/main/C%23/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs) <br />
 144: [Binary Tree Preorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0144.%20Binary%20Tree%20Preorder%20Traversal.cs) <br />
 145: [Binary Tree Postorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0145.%20Binary%20Tree%20Postorder%20Traversal.cs) <br />
