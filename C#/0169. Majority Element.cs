@@ -16,7 +16,7 @@ public class Solution
         else map.Add(num,1);
       
         //If an element appears more than N/2+1 times, it's the majority
-        if (map[num] >= nums.Length/2+1)
+        if (map[num] > nums.Length/2)
           return num;
       }
       
