@@ -1,5 +1,5 @@
 /*
-  Native Approach: Brute Force
+  Native Approach: Hashmap
   TC: O(n)
   SC: O(n)
 */
