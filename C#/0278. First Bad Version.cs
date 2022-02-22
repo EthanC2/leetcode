@@ -18,7 +18,7 @@ public class Solution : VersionControl
     {
       int low = 1, high = n, mid;
       
-      while (low < high)
+      while (low < high)   // <== NOT 'low <= high' because no internal return statement
       {
         mid = low+(high-low)/2;
         
@@ -28,6 +28,6 @@ public class Solution : VersionControl
           low = mid+1;
       }
       
-      return low;
+      return low; //You can return 'low' OR 'high' here because they're equal
     }
 }
