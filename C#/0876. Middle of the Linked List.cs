@@ -1,6 +1,12 @@
 /*
+  Finding the middle of a linked list using two pointers
   TC: O(n)
   SC: O(1)
+  
+  The middle of a list can only be deduced by knowing both the beginning and endpoints.
+  The midpoint should be exactly halfway between them. Admittedly, this solution could
+  be improved by removing the branching logic (the `if` statement) inside the `while`
+  loop.
   
   1. midpoint: 1 
      itr: 1
