@@ -1,5 +1,5 @@
 # LeetCode Solutions
-A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [quick jump](https://github.com/EthanC2/leetcode#problem-solutions).
+A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jump to solutions](https://github.com/EthanC2/leetcode#problem-solutions).
 
 ## Big-O Cheatsheet
 <img src="https://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png" alt="Big-O Cheatsheet" width="1000" height="600">
