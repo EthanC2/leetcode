@@ -35,3 +35,34 @@ public class Solution
       }
     }
 }
+
+
+/*
+  Optimal approach: one pass
+  TC: O(n)
+  SC: O(1)
+*/
+public class Solution 
+{
+    public void MoveZeroes(int[] nums) 
+    {
+      int idx = 0;
+      
+      //Find all the non-zero elements and put them at the front of the list
+      for(int i=0; i < nums.Length; i++)
+      {
+        if (nums[i] != 0)
+        {
+          nums[idx] = nums[i];
+          idx++;
+        }
+      }
+      
+      //Fill the remaining elements with zeros
+      while (idx < nums.Length)
+      {
+        nums[idx] = 0;
+        idx++;
+      }
+    }
+}
