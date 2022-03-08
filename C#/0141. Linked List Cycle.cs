@@ -34,6 +34,9 @@ public class Solution
   ===========================================================================
   Use a fast and slow pointer. If there is a cycle, the two pointers will necessarily
   overlap at some point. If either pointer reaches null, then there is no cycle.
+  
+  TC: O(n)
+  SC: O(1)
 */
 public class Solution 
 {
