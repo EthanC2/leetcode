@@ -30,13 +30,7 @@ public class Solution
         }
         
         //Join results
-        StringBuilder result = new();
-        while (deque.Count != 0)
-        {
-            result.Append("/" + deque.First.Value);
-            deque.RemoveFirst();
-        }
-        
-        return result.Length == 0 ? "/" : result.ToString();
+        string result = "/" + String.Join("/", deque);
+        return result.Length == 0 ? "/" : result;
     }
 }
