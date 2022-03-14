@@ -1,13 +1,13 @@
 /*
     TC: O(n) for iterating over the entire list
-    SC: O(n) 
+    SC: O(n) for storing it in a stack
 */
 public class Solution 
 {
     public string SimplifyPath(string path) 
     {
         LinkedList<string> deque = new();
-        string[] dirs = path.Split('/', StringSplitOptions.RemoveEmptyEntries);
+        string[] dirs = path.Split('/', StringSplitOptions.RemoveEmptyEntries);  //takes care of corner case '/dir//subdir/'
         
         foreach(string dir in dirs)
         {
