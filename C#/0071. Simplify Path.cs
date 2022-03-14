@@ -1,4 +1,6 @@
 /*
+    Simplify a given filepath into a canonical path (https://stackoverflow.com/questions/12100299/whats-a-canonical-path)
+
     TC: O(n) for iterating over the entire list
     SC: O(n) for storing it in a stack
 */
