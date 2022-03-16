@@ -8,18 +8,18 @@ public class Solution
     {
         Stack<int> stk = new();
         
-        int j = 0;
+        int i = 0;
         foreach(int pushedNum in pushed)
         {
             stk.Push(pushedNum);
             
-            while (stk.Count != 0 &&  stk.Peek() == popped[j])
+            while (stk.Count != 0 && stk.Peek() == popped[i])
             {
                 stk.Pop();
-                j++;
+                i++;
             }
         }
         
-        return j == pushed.Length;
+        return i == pushed.Length;
     }
 }
