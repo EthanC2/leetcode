@@ -24,6 +24,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 144: [Binary Tree Preorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0144.%20Binary%20Tree%20Preorder%20Traversal.cs) <br />
 145: [Binary Tree Postorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0145.%20Binary%20Tree%20Postorder%20Traversal.cs) <br />
 146: [LRU Cache](https://github.com/EthanC2/leetcode/blob/main/C%23/0146.%20LRU%20Cache.cs) <br />
+157: [Read N Characters Given Read4](https://github.com/EthanC2/leetcode/blob/main/C%23/0157.%20Read%20N%20Characters%20Given%20Read4.cs) <br />
 163: [Missing Ranges](https://github.com/EthanC2/leetcode/blob/main/C%23/0163.%20Missing%20Ranges.cs) <br />
 167: [Two Sum II - Input Array Is Sorted](https://github.com/EthanC2/leetcode/blob/main/C%23/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cs) <br />
 169: [Majority Element](https://github.com/EthanC2/leetcode/blob/main/C%23/0169.%20Majority%20Element.cs) <br />
