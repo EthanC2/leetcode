@@ -29,6 +29,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 169: [Majority Element](https://github.com/EthanC2/leetcode/blob/main/C%23/0169.%20Majority%20Element.cs) <br />
 175: [Combine Two Tables](https://github.com/EthanC2/leetcode/blob/main/SQL/175.%20Combine%20Two%20Tables.sql) <br />
 181: [Employees Earning More Than Their Managers](https://github.com/EthanC2/leetcode/blob/main/SQL/181.%20Employees%20Earning%20More%20Than%20Their%20Managers.sql) <br />
+182: [Duplicate Emails](https://github.com/EthanC2/leetcode/blob/main/SQL/0182.%20Duplicate%20Emails.mysql) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 226: [Invert Binary Tree](https://github.com/EthanC2/leetcode/blob/main/C%23/0226.%20Invert%20Binary%20Tree.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
