@@ -1,12 +1,16 @@
 /*
   Although this problem is really neat, it's also horribly explained, Here's my attempt:
-  CPUs are optimized to transfer words, which is a fixed-size unit of memory. Typically,
-  a word is 4-bytes, which is why this problem has you read 4 chars at a time since
-  each char is 1 byte.
+  CPUs are optimized to transfer words, which is a fixed-size unit of memory.
+  In this context a word is 4-bytes, which is why this problem has you read 4 chars at a time since
+  each char is 1 byte. 
   
-  Essentially, the way to solve this problem is to delcare a temporary buffer 'tempbuf'
+  They ask you to read 'n' characters (the max size of the buffer)
+  and no more, otherwise the buffer will overflow. However, the provided function 'Read4',
+  which reads 4 chars into a buffer that is passed by reference and returns how many characters
+  were read from the file (possibly 0-4), ALWAYS reads 4 characters.
+  
+  So, he way to solve this problem is to delcare a temporary buffer 'tempbuf' of 4 chars
   that acts as an intermediary between the source (the file) and the destination (the char buffer).
-  You need an intermediary because...
 
   TC: O(n)
   SC: O(1)
