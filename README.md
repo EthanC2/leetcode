@@ -47,6 +47,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 824: [Goat Latin](https://github.com/EthanC2/leetcode/blob/main/C%23/0824.%20Goat%20Latin.cs) <br />
 876: [Middle of the Linked List](https://github.com/EthanC2/leetcode/blob/main/C%23/0876.%20Middle%20of%20the%20Linked%20List.cs) <br />
 941: [Valid Mountain Array](https://github.com/EthanC2/leetcode/blob/main/C%23/0941.%20Valid%20Mountain%20Array.cs) <br />
+946: [Validate Stack Sequence](https://github.com/EthanC2/leetcode/blob/main/C%23/0946.%20Validate%20Stack%20Sequences.cs) <br />
 977: [Squares of a Sorted Array](https://github.com/EthanC2/leetcode/blob/main/C%23/0977.%20Squares%20of%20a%20Sorted%20Array.cs) <br />
 1064: [Fixed Point](https://github.com/EthanC2/leetcode/blob/main/C%23/1064.%20Fixed%20Point.cs) <br />
 1305: [All Elements in Two Binary Search Trees](https://github.com/EthanC2/leetcode/blob/main/C%23/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.cs) <br />
