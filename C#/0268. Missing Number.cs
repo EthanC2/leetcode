@@ -2,7 +2,10 @@
   Sorting is an intuitive solution, but is ineffecient because it takes O(n log n) time.
 
   Creating a hashset from the array allows for constant (O(1)) lookup time.
-  This yields a faster, but less space efficient, algorithm
+  This yields a faster, but less space efficient, algorithm. However, the 
+  space complexity could be reduced from O(n) to O(1) by using the Guassian
+  summation formula and then returning the difference between the summation
+  and the total of the given array.
   
   TC: O(n)
   SC: O(n)
