@@ -35,6 +35,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 226: [Invert Binary Tree](https://github.com/EthanC2/leetcode/blob/main/C%23/0226.%20Invert%20Binary%20Tree.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
 258: [Add Digits](https://github.com/EthanC2/leetcode/blob/main/C%23/0258.%20Add%20Digits.cs) <br />
+268: [Missing Number](https://github.com/EthanC2/leetcode/blob/main/C%23/0268.%20Missing%20Number.cs) <br />
 278: [First Bad Version](https://github.com/EthanC2/leetcode/blob/main/C%23/0278.%20First%20Bad%20Version.cs) <br />
 283: [Move Zeros](https://github.com/EthanC2/leetcode/blob/main/C%23/0283.%20Move%20Zeroes.cs) <br />
 344. [Reverse String](https://github.com/EthanC2/leetcode/blob/main/C%23/0344.%20Reverse%20String.cs) <br />
