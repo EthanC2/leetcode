@@ -27,8 +27,8 @@ public class Solution
 /*
   Better approach: dynamic programming
   
-  TC:
-  SC:
+  TC: O(n)
+  SC: O(1)
 */
 public class Solution 
 {
