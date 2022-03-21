@@ -25,5 +25,25 @@ public class Solution
 }
 
 /*
+  Better approach: dynamic programming
   
+  TC:
+  SC:
 */
+public class Solution 
+{
+    public int MaxSubArray(int[] nums) 
+    {
+        int currentSubarray = nums[0];
+        int maxSubarray = nums[0];
+        
+        for(int i=1; i < nums.Length; ++i) //skip idx=0 because it's already accounted for above
+        {
+            int num = nums[i];
+            currentSubarray = Math.Max(num, currentSubarray+num);
+            maxSubarray = Math.Max(maxSubarray, currentSubarray);
+        }
+        
+        return maxSubarray;
+    }
+}
