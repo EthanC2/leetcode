@@ -41,6 +41,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 268: [Missing Number](https://github.com/EthanC2/leetcode/blob/main/C%23/0268.%20Missing%20Number.cs) <br />
 278: [First Bad Version](https://github.com/EthanC2/leetcode/blob/main/C%23/0278.%20First%20Bad%20Version.cs) <br />
 283: [Move Zeros](https://github.com/EthanC2/leetcode/blob/main/C%23/0283.%20Move%20Zeroes.cs) <br />
+326: [Power of Three](https://github.com/EthanC2/leetcode/blob/main/C%23/0326.%20Power%20of%20Three.cs) <br />
 344. [Reverse String](https://github.com/EthanC2/leetcode/blob/main/C%23/0344.%20Reverse%20String.cs) <br />
 389: [Find the Difference](https://github.com/EthanC2/leetcode/blob/main/C%23/0389.%20Find%20the%20Difference.cs) <br />
 438: [Find All Anagrams in a String](https://github.com/EthanC2/leetcode/blob/main/C%23/0438.%20Find%20All%20Anagrams%20in%20a%20String.cs) <br />
