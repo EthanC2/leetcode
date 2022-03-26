@@ -35,6 +35,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 208: [Implement Trie (Prefix Tree)](https://github.com/EthanC2/leetcode/blob/main/Rust/0208.%20Implement%20Trie%20(Prefix%20Tree)) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 226: [Invert Binary Tree](https://github.com/EthanC2/leetcode/blob/main/C%23/0226.%20Invert%20Binary%20Tree.cs) <br />
+231: [Power of Two](https://github.com/EthanC2/leetcode/blob/main/C%23/0231.%20Power%20of%20Two.cs) <br />
 242: [Valid Anagram](https://github.com/EthanC2/leetcode/blob/main/C%23/0242.%20Valid%20Anagram.cs) <br />
 258: [Add Digits](https://github.com/EthanC2/leetcode/blob/main/C%23/0258.%20Add%20Digits.cs) <br />
 268: [Missing Number](https://github.com/EthanC2/leetcode/blob/main/C%23/0268.%20Missing%20Number.cs) <br />
