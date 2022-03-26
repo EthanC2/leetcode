@@ -29,8 +29,8 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 163: [Missing Ranges](https://github.com/EthanC2/leetcode/blob/main/C%23/0163.%20Missing%20Ranges.cs) <br />
 167: [Two Sum II - Input Array Is Sorted](https://github.com/EthanC2/leetcode/blob/main/C%23/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cs) <br />
 169: [Majority Element](https://github.com/EthanC2/leetcode/blob/main/C%23/0169.%20Majority%20Element.cs) <br />
-175: [Combine Two Tables](https://github.com/EthanC2/leetcode/blob/main/SQL/175.%20Combine%20Two%20Tables.sql) <br />
-181: [Employees Earning More Than Their Managers](https://github.com/EthanC2/leetcode/blob/main/SQL/181.%20Employees%20Earning%20More%20Than%20Their%20Managers.sql) <br />
+175: [Combine Two Tables](https://github.com/EthanC2/leetcode/blob/main/SQL/0175.%20Combine%20Two%20Tables.mysql) <br />
+181: [Employees Earning More Than Their Managers](https://github.com/EthanC2/leetcode/blob/main/SQL/0181.%20Employees%20Earning%20More%20Than%20Their%20Managers.mysql) <br />
 182: [Duplicate Emails](https://github.com/EthanC2/leetcode/blob/main/SQL/0182.%20Duplicate%20Emails.mysql) <br />
 208: [Implement Trie (Prefix Tree)](https://github.com/EthanC2/leetcode/blob/main/Rust/0208.%20Implement%20Trie%20(Prefix%20Tree)) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
