@@ -14,7 +14,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 35: [Search Insert Position](https://github.com/EthanC2/leetcode/blob/main/C%23/0035.%20Search%20Insert%20Position.cs) <br />
 53: [Maximum Subarray](https://github.com/EthanC2/leetcode/blob/main/C%23/0053.%20Maximum%20Subarray.cs) <br />
 71: [Simplify Path](https://github.com/EthanC2/leetcode/blob/main/C%23/0071.%20Simplify%20Path.cs) <br />
-74: [Subsets](https://github.com/EthanC2/leetcode/blob/main/C%23/0078.%20Subsets.cs) <br />
+78: [Subsets](https://github.com/EthanC2/leetcode/blob/main/C%23/0078.%20Subsets.cs) <br />
 82: [Remove Duplicates from Sorted List II](https://github.com/EthanC2/leetcode/blob/main/C%23/0082.%20Remove%20Duplicates%20from%20Sorted%20List%20II.cs) <br />
 94: [Binary Tree Inorder Traversal](https://github.com/EthanC2/leetcode/blob/main/C%23/0094.%20Binary%20Tree%20Inorder%20Traversal.cs) <br />
 102: [Binary Tree Level Order Traversal](https://github.com/EthanC2/leetcode/blob/main/C%2B%2B/0102.%20Binary%20Tree%20Level%20Order%20Traversal.cpp) <br />
