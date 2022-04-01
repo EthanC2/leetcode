@@ -14,3 +14,18 @@ public class Solution
       }
     }
 }
+
+
+/*
+   Using build-in array utilities
+   ==============================
+   TC: O(n)
+   SC: O(1)
+*/
+public class Solution 
+{
+    public void ReverseString(char[] s) 
+    {
+        Array.Reverse(s);
+    }
+}
