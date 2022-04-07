@@ -28,12 +28,13 @@ impl WordDictionary {
     
     fn add_word(&mut self, word: String) {
         let mut current_node = &mut self.root;
+
         for c in word.chars() {
             if !current_node.children.contains_key(&c) {
                 current_node.children.insert(c, TrieNode::new());
             }
                 
-            current_node = current_node.children.get_mut(&c).unwrap();
+            current_node = current_node.children.get_mut(&c).unwrap();  //safe because of above if-statement
         }
         
         current_node.is_end = true;
@@ -47,7 +48,7 @@ impl WordDictionary {
         let mut current_node = start;
         for (i,c) in substr.chars().enumerate() {                      
             match c {
-                '.' => return current_node.children.values().into_iter().any(|child| self.internal_search(&substr[(i+1)..], &child)),
+                '.' => return current_node.children.values().any(|child| self.internal_search(&substr[(i+1)..], &child)),
                  _ => match current_node.children.get(&c) {
                     Some(child) => current_node = child,
                     None => return false,
