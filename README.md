@@ -34,6 +34,7 @@ A collection of [LeetCode](https://leetcode.com/problemset/all/) solutions: [jum
 181: [Employees Earning More Than Their Managers](https://github.com/EthanC2/leetcode/blob/main/SQL/0181.%20Employees%20Earning%20More%20Than%20Their%20Managers.mysql) <br />
 182: [Duplicate Emails](https://github.com/EthanC2/leetcode/blob/main/SQL/0182.%20Duplicate%20Emails.mysql) <br />
 208: [Implement Trie (Prefix Tree)](https://github.com/EthanC2/leetcode/blob/main/Rust/0208.%20Implement%20Trie%20(Prefix%20Tree)) <br />
+211: [Design Add and Search Words Data Structure](https://github.com/EthanC2/leetcode/blob/main/Rust/0211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure.rs) <br />
 217: [Contains Duplicate](https://github.com/EthanC2/leetcode/blob/main/C%23/0217.%20Contains%20Duplicate.cs) <br />
 226: [Invert Binary Tree](https://github.com/EthanC2/leetcode/blob/main/C%23/0226.%20Invert%20Binary%20Tree.cs) <br />
 231: [Power of Two](https://github.com/EthanC2/leetcode/blob/main/C%23/0231.%20Power%20of%20Two.cs) <br />
