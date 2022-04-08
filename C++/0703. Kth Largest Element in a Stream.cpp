@@ -70,3 +70,44 @@ public:
         return pq.top();
     }
 };
+
+
+
+/*
+  Raw solution using a heap instead of the priority queue class
+  
+  TC: O(log n)
+  SC: O(1)
+*/
+class KthLargest {
+private:
+    int n;
+    std::vector<int> values;
+    
+public:
+    KthLargest(int k, vector<int>& nums) {
+        n = k;
+        
+        values = nums;
+        std::make_heap(values.begin(), values.end(), std::greater<int>());
+        
+        while (values.size() > n)
+        {
+            std::pop_heap(values.begin(), values.end(), std::greater<int>());
+            values.pop_back();
+        }
+    }
+    
+    int add(int val) { 
+        values.push_back(val);
+        std::push_heap(values.begin(), values.end(), std::greater<int>());
+        
+        if (values.size() > n)
+        {
+            std::pop_heap(values.begin(), values.end(), std::greater<int>());
+            values.pop_back();
+        }
+        
+        return values[0];
+    }
+};
