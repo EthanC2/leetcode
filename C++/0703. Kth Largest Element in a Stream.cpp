@@ -108,6 +108,6 @@ public:
             values.pop_back();
         }
         
-        return values[0];
+        return values.front();
     }
 };
